@@ -1,0 +1,28 @@
+@charset "UTF-8";  /* Para nao ter problema de compactibilidade com caracyeres especiais*/
+* {
+    
+}
+body{
+    font-family:   Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #F1D8C9, #F2C3AF);
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  #5e4c41;
+    width: 600px;
+    padding: justify;
+    margin: auto;
+}
+h1{
+    color: #e28604;
+    text-align: center;
+    text-shadow: 1px 1px 2px  #3b2301;
+}
+h2{
+    color: #125189c;
+
+}
+p {
+    text-align: justify;
+}

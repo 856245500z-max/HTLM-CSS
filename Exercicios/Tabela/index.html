@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+
+        }
+        tr{
+            background-color: gray;
+        }
+        td{
+            border: 1px solid black
+            
+        }
+        td.dado{
+             background-color: yellow;   
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Criacao de uma tabela</h1>
+    <!--
+        HIERARQUIA DE TABELAS (simples)
+        TABLE = tabela
+            Table ROW = linha de tabela
+                TABLE HEADER = cabecalho de tabela
+                    TABLE DATE = dado de tabela 
+    -->
+    <table>
+         <tr>    <!--Primeira linha-->
+            <td>Isabel</td>
+            <td>Torrezao</td>
+            <td>Francisco</td>
+         </tr>
+         <tr class="linha">
+            <td>Karhen</td>
+            <td>Santos</td>
+            <td class="dado">Lourenco</td>
+         </tr>
+         <tr>
+            <td>Valdinho</td>
+            <td>Ruben</td>
+            <td>Wagner</td>
+        <tr>
+            <td>Sandra</td>
+            <td>Francisco</td>
+            <td>Sete</td>
+        </tr>
+         </tr>
+    </table>
+
+</body>
+</html>
